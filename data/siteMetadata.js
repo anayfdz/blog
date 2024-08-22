@@ -6,8 +6,8 @@ const siteMetadata = {
   description: 'Un espacio creado para compartir información relevante para la comunidad',
   language: 'es-ES',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: '',
+  siteRepo: 'https://github.com/anayfdz/blog',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logoanafernandez.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
   mastodon: 'https://mastodon.social/@mastodonuser',
