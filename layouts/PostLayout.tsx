@@ -65,8 +65,8 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                       {author.avatar && (
                         <Image
                           src={author.avatar}
-                          width={38}
-                          height={38}
+                          width={60}
+                          height={40}
                           alt="avatar"
                           className="h-10 w-10 rounded-full"
                         />
@@ -74,14 +74,14 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                       <dl className="whitespace-nowrap text-sm font-medium leading-5">
                         <dt className="sr-only">Nombre</dt>
                         <dd className="text-gray-900 dark:text-gray-100">{author.name}</dd>
-                        <dt className="sr-only">Twitter</dt>
+                        <dt className="sr-only">Linkedin</dt>
                         <dd>
-                          {author.twitter && (
+                          {author.linkedin && (
                             <Link
-                              href={author.twitter}
+                              href={author.linkedin}
                               className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
                             >
-                              {author.twitter
+                              {author.linkedin
                                 .replace('https://twitter.com/', '@')
                                 .replace('https://x.com/', '@')}
                             </Link>
