@@ -1,14 +1,21 @@
 {
+  "automatización": 1,
+  "alternativas-a-zapier": 1,
+  "no-code": 1,
+  "tecnología": 2,
   "ia": 2,
   "tecnologia": 3,
   "trabajo": 1,
   "remoto": 1,
-  "innovaciones": 1,
-  "blockchain": 1,
-  "5g": 1,
+  "code": 1,
+  "scrum": 1,
   "trabajo-remoto": 1,
   "productividad": 1,
   "herramientas-digitales": 1,
-  "code": 1,
-  "scrum": 1
+  "transformación-digital": 1,
+  "negocios": 1,
+  "soluciones-personalizadas": 1,
+  "innovaciones": 1,
+  "blockchain": 1,
+  "5g": 1
 }
